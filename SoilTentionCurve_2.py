@@ -198,9 +198,9 @@ class SoilTensionCalculator:
         )
         self.labelframe2.grid(row=0, column=1, padx=10, rowspan = 2)
 
-        self._load_icon("Van Genghten.png", 1, "Van Genghten Model")
+        self._load_icon("VanGenghten.png", 1, "Van Genghten Model")
         self._load_icon("Campbell.png", 3, "Campbell Model")
-        self._load_icon("BC Model.png", 5, "Brook and Corey Model")
+        self._load_icon("BCModel.png", 5, "Brook and Corey Model")
 
         # resize and reposition window
         ws = self.window.winfo_screenwidth()
@@ -353,3 +353,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
