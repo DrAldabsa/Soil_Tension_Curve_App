@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Soil Tension Curve Calculator
-Refactored but preserving your original Arabic GUI layout and design.
 
 Dependencies:
     - numpy
@@ -353,4 +352,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
